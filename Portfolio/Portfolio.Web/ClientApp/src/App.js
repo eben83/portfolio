@@ -1,18 +1,34 @@
-import React, { Component } from 'react';
-import { Route } from 'react-router';
-import { Layout } from './components/Layout';
+import React, {  } from 'react';
+import { Route } from 'react-router-dom';
+import { useMediaQuery } from "react-responsive";
+import Layout from './components/Layout';
 import Home from './components/home';
+// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 import './custom.css'
 
-export default class App extends Component {
-  static displayName = App.name;
+const App = () => {
 
-  render () {
+  const isXxxl = useMediaQuery({query:'(min-width: 1680px)'})
+  const isXxl = useMediaQuery({query:'(min-width: 1440px)'})
+  const isXl = useMediaQuery({query:'(min-width: 1200px)'})
+  const isLg = useMediaQuery({query:'(min-width: 992px)'})
+  const isMd = useMediaQuery({query:'(min-width: 768px)'})
+  const isSm = useMediaQuery({query:'(min-width: 576px)'})
+
+  const media =
+      isXxxl ? "xxxl" :
+          isXxl ? "xxl" :
+              isXl ? "xl" :
+                  isLg ? "lg" :
+                      isMd ? "md" :
+                          isSm ? "sm" : "xs"
+
     return (
-      <Layout>
+      <Layout media={media}>
         <Route exact path='/' component={Home} />
       </Layout>
     );
-  }
 }
+
+export default App
