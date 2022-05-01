@@ -20,7 +20,7 @@ const Home = () => {
 const Wrapper = styled.div `
   display: flex;
   flex-direction: column-reverse;
-  overflow: hidden;
+  //overflow: hidden;
 
   @media (min-width: 768px) {
     flex-direction: row;
