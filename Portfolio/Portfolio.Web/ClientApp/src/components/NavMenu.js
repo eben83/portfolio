@@ -44,6 +44,8 @@ const NavMenu = (props) => {
 
 const NavWrapper = styled.div`
   background: #252734;
+  //position: fixed;
+  //top: 0;
 `
 
 export default NavMenu

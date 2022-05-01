@@ -2,7 +2,7 @@ import React, {  } from 'react';
 import { Route } from 'react-router-dom';
 import { useMediaQuery } from "react-responsive";
 import Layout from './components/Layout';
-import Home from './components/home';
+import Home from './pages/home';
 // import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 import './custom.css'
