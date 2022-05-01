@@ -18,16 +18,11 @@ const WelcomeText = (props) => {
 const Heading = styled.div`
   padding: 1rem;
   @media (min-width: 768px) {
-    position: relative;
     padding: 2rem;
   }
 `
 const TextBlock = styled.div`
   @media (min-width: 768px) {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 `
 const Hello = styled.h2`
