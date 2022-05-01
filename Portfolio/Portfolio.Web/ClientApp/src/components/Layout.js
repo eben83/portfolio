@@ -1,13 +1,14 @@
 import React, {  } from 'react';
-// import { NavMenu } from './NavMenu';
+import NavMenu from './NavMenu';
+import Home from "./home";
 
-const Layout = (props) => {
+const Layout = ({media}) => {
 
     return (
-      <div>
-        {/*<NavMenu />*/}
-          {props.children}
-      </div>
+        <div>
+            <NavMenu media={media}/>
+            <Home media={media} />
+        </div>
     );
 }
 
