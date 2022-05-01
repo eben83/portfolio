@@ -1,18 +1,10 @@
 import React, {} from 'react';
 import styled from "styled-components";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 const HeroImage = ({image, alt}) => {
   return (
     <>
       <Wrapper>
-        {/*<ShapeWrapper>*/}
-          {/*<RoundShape >*/}
-          {/*  <FontAwesomeIcon className='git' icon={faGithub} />*/}
-          {/*  <FontAwesomeIcon className='linked' icon={faLinkedin} />*/}
-          {/*</RoundShape>*/}
-        {/*</ShapeWrapper>*/}
         <ImageContainer>
         <img src={image} alt={alt} />
       </ImageContainer>
@@ -22,15 +14,15 @@ const HeroImage = ({image, alt}) => {
 }
 
 const Wrapper = styled.div`
-  display: block;
 `
 const ImageContainer = styled.div`
-  position: relative;
+  //position: relative;
+  width: 100vw;
   
   img {
-    position: relative;
-    display: block;
-    left: 0;
+    object-fit: cover;
+    width: 38rem;
+    height: 38rem;
 
     @media (min-width: 576px) {
       left: 10rem;

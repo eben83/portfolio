@@ -11,7 +11,7 @@ const Layout = ({media}) => {
           <NavMenu media={media}/>
           <Home media={media} />
           <About media={media} />
-          <Skills />
+          <Skills media={media}/>
         </div>
     );
 }
