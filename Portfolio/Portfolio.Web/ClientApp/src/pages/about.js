@@ -23,7 +23,7 @@ const About = () => {
 const Wrapper = styled.div`
   margin: 5rem 0;
   background-color: white;
-  height: 20rem;
+  height: 30rem;
   color: #252734;
   text-align: center;
   width: 100%;
@@ -37,10 +37,8 @@ const Heading = styled.h1`
 `
 
 const Text = styled.div`
-  padding: 0 20rem;
-  //width: 20rem;
-  
-  
+  padding: 1rem 4rem;
+  margin-bottom: 4rem;
 `
 
 export default About;
