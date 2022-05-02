@@ -1,7 +1,5 @@
 import React, {  } from 'react';
 // import NavMenu from '../NavMenu';
-import Home from "../../pages/home/home";
-import Skills from "../../pages/skills/skills";
 
 import './layout.xs.css'
 import './layout.sm.css'
