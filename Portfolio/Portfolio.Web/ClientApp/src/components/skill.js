@@ -1,15 +1,13 @@
 import React, {} from 'react';
-import styled from 'styled-components'
 
 const Skill = ({title, text}) => {
   return (
     <>
-      <Wrapper>
+      <div>
         <h4>{title}</h4>
         <p>{text}</p>
-      </Wrapper>
+      </div>
     </>
   );
 }
-const Wrapper = styled.div``
 export default Skill;

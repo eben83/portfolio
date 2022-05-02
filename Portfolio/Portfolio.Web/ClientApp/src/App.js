@@ -2,10 +2,14 @@ import React, {  } from 'react';
 import { Route } from 'react-router-dom';
 import { useMediaQuery } from "react-responsive";
 import Layout from './components/Layout';
-import Home from './pages/home';
+import Home from './pages/home/home';
 // import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-import './custom.css'
+import './custom.xs.css'
+import './custom.sm.css'
+import './custom.md.css'
+import './custom.lg.css'
+import './custom.xl.css'
 
 const App = () => {
 
