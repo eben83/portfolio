@@ -11,7 +11,6 @@ import './custom.sm.css'
 import './custom.md.css'
 import './custom.lg.css'
 import './custom.xl.css'
-import FunInformation from "./components/funInfomation/funInformation";
 
 const App = () => {
 
@@ -34,7 +33,6 @@ const App = () => {
       <Layout media={media}>
         <Route exact path='/' component={Home} />
         <Route exact path='/' component={Skills} />
-        {/*<Route exact path='/' component={FunInformation} />*/}
       </Layout>
     );
 }
