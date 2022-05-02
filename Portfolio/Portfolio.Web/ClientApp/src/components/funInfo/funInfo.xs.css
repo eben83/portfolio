@@ -1,3 +1,7 @@
 .funInfo {
-  background: red;
-  height: 12rem; }
+  padding: 2rem; }
+  .funInfo .funItem {
+    display: flex; }
+    .funInfo .funItem .icon {
+      font-size: 2rem;
+      margin-right: 1rem; }

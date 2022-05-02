@@ -1,18 +1,26 @@
 .skills {
   background: #2A2C39;
-  //color: #252734;
-  padding: 2rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+  padding-bottom: 2rem;
   
-  .skillItem {
+  .title {
+    padding: 2rem;
+  }
+  
+  .skillsContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #252734;
-    border-radius: 12px;
-    margin: 1rem 0;
+    
+    .skillItem {
+      width: 19rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: #252734;
+      border-radius: 12px;
+      //padding: 2rem rem;
+      //margin: 1rem 0;
+      border: 1px solid black;
+    }
   }
 }

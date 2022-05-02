@@ -1,15 +1,14 @@
 ﻿@media (min-width: 768px) {
   .skills {
-	display: flex;
-	justify-content: center;
-	
+
 	.title {
-	  display: flex;
-	  justify-content: left;
 	}
-	.skillItem {
-	  width: 48rem;
-	  margin-top: 3rem;
+
+	.skillsContainer {
+
+	  .skillItem {
+		width: 42rem;
+	  }
 	}
   }
 }

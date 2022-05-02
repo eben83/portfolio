@@ -1,4 +1,11 @@
 .funInfo {
-  background: red;
-  height: 12rem;
+  padding: 2rem;
+  .funItem {
+    display: flex;
+    
+    .icon {
+      font-size: 2rem;
+      margin-right: 1rem;
+    }
+  }
 }
