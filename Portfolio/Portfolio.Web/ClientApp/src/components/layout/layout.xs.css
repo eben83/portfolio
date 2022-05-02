@@ -1,0 +1,13 @@
+.layout {
+  width: 100vw;
+  height: 100vh; }
+  .layout .layout-image {
+    background-image: url("../../images/code2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; }
+  .layout .overlay {
+    background: rgba(50, 70, 80, 0.7);
+    height: 100vh; }

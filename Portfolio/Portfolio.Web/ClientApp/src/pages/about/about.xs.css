@@ -1,0 +1,10 @@
+.about {
+  height: 32rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #252734; }
+  .about .text {
+    padding: 0 3rem; }
