@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+  .skills {
+    display: flex;
+    justify-content: center; }
+    .skills .title {
+      display: flex;
+      justify-content: left; }
+    .skills .skillItem {
+      width: 48rem;
+      margin-top: 3rem; } }

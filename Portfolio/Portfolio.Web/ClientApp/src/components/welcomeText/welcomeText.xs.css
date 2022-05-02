@@ -14,3 +14,13 @@
     .welcomeText .cvButton .button:hover {
       background: white;
       color: #252734; }
+  .welcomeText .social {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 1rem; }
+    .welcomeText .social a {
+      color: white;
+      font-size: 2rem; }
+      .welcomeText .social a:hover {
+        color: red; }

@@ -31,7 +31,9 @@
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "nan": "^2.14.1",
+    "react-intersection-observer": "^9.1.0",
     "react-scripts": "^5.0.0",
+    "react-spring": "^9.4.4",
     "typescript": "^3.7.5"
   },
   "eslintConfig": {
