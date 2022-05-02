@@ -1,5 +1,5 @@
 import React, {} from 'react';
-import Skill from "../../components/skill";
+import Skill from "../../components/skill/skill";
 
 import './skills.xs.css'
 import './skills.sm.css'
@@ -12,7 +12,10 @@ const Skills = () => {
     <>
       <div className='skills'>
         <h4>Skills</h4>
-        <Skill title={"test"} text={'text'} />
+        <div className='skillItem'>
+          <Skill title={"test"} text={'text'} />
+          <Skill title={"test"} text={'text'} />
+        </div>
       </div>
     </>
   );

@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import { useMediaQuery } from "react-responsive";
 import Layout from './components/layout/Layout';
 import Home from './pages/home/home';
+import Skills from "./pages/skills/skills";
 // import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 import './custom.xs.css'
@@ -31,6 +32,7 @@ const App = () => {
     return (
       <Layout media={media}>
         <Route exact path='/' component={Home} />
+        <Route exact path='/' component={Skills} />
       </Layout>
     );
 }

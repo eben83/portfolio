@@ -1,5 +1,12 @@
 .skills {
-  height: 30rem;
-  //background: transparent;
-  background: #252734;
+  //height: 30rem;
+  background: transparent;
+  color: #252734;
+  padding: 2rem;
+  
+  .skillItem {
+    display: flex;
+    justify-content: center;
+  }
+  //background: #252734;
 }

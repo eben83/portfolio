@@ -1,11 +1,12 @@
 import React, {} from 'react';
 
+import './skill.xs.css'
+
 const Skill = ({title, text}) => {
   return (
     <>
-      <div>
-        <h4>{title}</h4>
-        <p>{text}</p>
+      <div className='skill'>
+        <h6>{title}</h6>
       </div>
     </>
   );
