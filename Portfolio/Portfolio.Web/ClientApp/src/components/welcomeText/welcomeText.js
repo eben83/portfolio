@@ -27,10 +27,10 @@ const WelcomeText = () => {
           </div>
         </div>
         <div className='social'>
-          <a href={'#'} >
+          <a href='https://example.com'>
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href={'#'} >
+          <a href='https://github.com/eben83' >
             <FontAwesomeIcon icon={faGit} />
           </a>
         </div>
