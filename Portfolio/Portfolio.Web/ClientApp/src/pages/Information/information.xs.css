@@ -1,0 +1,8 @@
+.information {
+  background: #252734; }
+  .information .title {
+    padding: 2rem; }
+  .information .infoItem {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }

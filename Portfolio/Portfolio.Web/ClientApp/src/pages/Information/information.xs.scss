@@ -1,0 +1,12 @@
+.information {
+  background: #252734;
+  
+  .title {
+    padding: 2rem;
+  }
+  .infoItem {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
