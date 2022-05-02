@@ -27,7 +27,7 @@ const WelcomeText = () => {
           </div>
         </div>
         <div className='social'>
-          <a href='https://example.com'>
+          <a href='https://linkedin.com/in/eben-burger-856453145'>
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a href='https://github.com/eben83' >
