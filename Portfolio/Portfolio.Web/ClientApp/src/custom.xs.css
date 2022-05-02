@@ -1,17 +1,14 @@
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
-}
+  color: #0366d6; }
 
 code {
-  color: #E01A76;
-}
+  color: #E01A76; }
 
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
-  border-color: #1861ac;
-}
+  border-color: #1861ac; }
 
 body {
   height: 100vh;
@@ -19,31 +16,29 @@ body {
   font-weight: normal;
   background-color: #252734;
   color: white;
-}
+  overflow-x: hidden; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4 {
   font-family: 'Archivo', sans-serif;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 h1, .h1 {
-  font-size: 2.7rem;
-}
+  font-size: 2.7rem; }
+
 h2, .h2 {
-  font-size: 2.4rem;
-}
+  font-size: 2.4rem; }
+
 h3, .h3 {
-  font-size: 2.05rem;
-}
+  font-size: 2.05rem; }
+
 h4, .h4 {
-  font-size: 1.7rem;
-}
+  font-size: 1.7rem; }
+
 h5, .h5 {
-  font-size: 1.4rem;
-}
+  font-size: 1.4rem; }
+
 h6, .h6 {
-  font-size: 1.1rem;
-}
+  font-size: 1.1rem; }
 
 .scrollTop {
   position: fixed;
@@ -58,6 +53,5 @@ h6, .h6 {
   animation: fadeIn 0.3s;
   transition: opacity 0.4s;
   width: 40px;
-  font-size:48px;
-  color:red;
-}
+  font-size: 48px;
+  color: red; }

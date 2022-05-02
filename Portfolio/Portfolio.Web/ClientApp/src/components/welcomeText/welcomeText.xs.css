@@ -1,0 +1,16 @@
+.welcomeText {
+  height: 20rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .welcomeText .cvButton .button {
+    border: 1px solid white;
+    padding: 0.6rem;
+    border-radius: 14px; }
+    .welcomeText .cvButton .button .icon {
+      padding-left: 1rem; }
+    .welcomeText .cvButton .button:hover {
+      background: white;
+      color: #252734; }
