@@ -12,6 +12,7 @@ import './custom.md.css'
 import './custom.lg.css'
 import './custom.xl.css'
 import Information from "./pages/Information/information";
+import Experience from "./pages/experience/experience";
 
 const App = () => {
 
@@ -35,6 +36,7 @@ const App = () => {
         <Route exact path='/' component={Home} />
         <Route exact path='/' component={Skills} />
         <Route exact path='/' component={Information} />
+        <Route exact path='/' component={Experience} />
       </Layout>
     );
 }
