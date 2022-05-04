@@ -1,13 +1,23 @@
 @media (min-width: 768px) {
   .workItem {
     justify-content: center;
-    position: relative; }
-    .workItem .context {
-      position: absolute; }
+    position: relative;
+    height: 15rem; }
+    .workItem .dateContainer {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%); }
     .workItem .right {
+      position: absolute;
       top: 0;
       left: 61%; }
     .workItem .left {
+      position: absolute;
       top: 0;
       left: -14%;
-      text-align: right; } }
+      text-align: right; }
+      .workItem .left p {
+        width: 100%; }
+    .workItem .workText {
+      width: 17rem; } }

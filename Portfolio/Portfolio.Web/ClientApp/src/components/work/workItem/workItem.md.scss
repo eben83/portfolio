@@ -2,21 +2,34 @@
   .workItem {
 	justify-content: center;
 	position: relative;
+	height: 15rem;
 
 	.dateContainer {
+	  position:absolute;
+	  left: 50%;
+	  top: 50%;
+	  transform: translate(-50%, -50%);
 	}
 	.context {
-	  position: absolute;
+	  
 
 	}
 	.right {
+	  position: absolute;
 	  top: 0;
 	  left: 61%;
 	}
 	.left {
+	  position: absolute;
 	  top: 0;
 	  left: -14%;
 	  text-align: right;
+	   p{
+		 width: 100%;
+	   }
+	}
+	.workText {
+	  width: 17rem;
 	}
   }
 }

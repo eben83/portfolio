@@ -23,24 +23,24 @@ const Experience = (props) => {
           <WorkMain />
           <WorkItem 
             className={'right'}
-            company='AtraX Logistics' 
             start="Feb 2022" 
             end='Present' 
-            context="This is the context" 
+            company='AtraX Logistics' 
+            context="Responsible for designing and implementing of all new internal static sites, new web applications or features as per Ops department requirement's involved in all stages of design and implementation." 
             />
           <WorkItem
             className={'left'}
-            company='CWare'
             start="Nov 2021"
             end='Feb 2022'
-            context="This is the context" 
+            company='CWare'
+            context="Responsible for frontend UI, maintaining and fixing bugs and developing new UI features to client specifications using Vue 2 framework. Implementing new REST API calls using Axios. Testing all current and new features. Designing UI to client requirement." 
             />
           <WorkItem
             className={'right'}
-            company='Arlow Consulting'
             start="Dec 2019"
             end='Nov 2021'
-            context="This is the context" 
+            company='Arlow Consulting'
+            context="Designed and implemented user interface components for React web applications, involved in all stages of interface component design, from conception through to final testing. Designed and deployed a wide variety of websites to customer requirements" 
           />
         </div>
       </div>

@@ -1,0 +1,5 @@
+@media (min-width: 1200px) {
+  .workItem .right {
+    left: 56%; }
+  .workItem .left {
+    left: -8%; } }

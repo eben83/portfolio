@@ -15,12 +15,14 @@ const WokItem = ({start, end, company, context, className}) => {
             <p>{start} <br/> - <br/> {end}</p>
           </div>
         </div>
-        <div className={`context ${className}`}>
-          <div className='workHeading'>
-            <h4>{company}</h4>
-          </div>
-          <div className='workText'>
-            <p>{context}</p>
+        <div className='context'>
+          <div className={`${className}`}>
+            <div className='workHeading'>
+              <h4>{company}</h4>
+            </div>
+            <div className='workText'>
+              <p>{context}</p>
+            </div>
           </div>
         </div>
       </div>

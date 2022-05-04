@@ -10,8 +10,7 @@
     width: 8rem;
     position: relative;
     display: flex;
-    justify-content: center;
-    margin-left: 1rem; }
+    justify-content: center; }
     .workMain .iconContainer .icon {
       font-size: 3rem;
       position: absolute;
