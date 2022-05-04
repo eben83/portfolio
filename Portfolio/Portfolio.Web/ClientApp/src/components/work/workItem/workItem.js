@@ -1,11 +1,12 @@
-﻿import React, {} from 'react';
+import React, {} from 'react';
 
 import './workItem.xs.css'
 import './workItem.sm.css'
 import './workItem.md.css'
 import './workItem.lg.css'
 import './workItem.xl.css'
-const WokItem = ({start, end, company, context}) => {
+
+const WokItem = ({start, end, company, context, className}) => {
   return (
     <>
       <div className='workItem'>
@@ -14,7 +15,7 @@ const WokItem = ({start, end, company, context}) => {
             <p>{start} <br/> - <br/> {end}</p>
           </div>
         </div>
-        <div className='context'>
+        <div className={`context ${className}`}>
           <div className='workHeading'>
             <h4>{company}</h4>
           </div>

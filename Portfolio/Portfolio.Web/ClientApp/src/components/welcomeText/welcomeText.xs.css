@@ -12,8 +12,7 @@
     .welcomeText .cvButton .button .icon {
       padding-left: 1rem; }
     .welcomeText .cvButton .button:hover {
-      background: white;
-      color: #252734; }
+      background-image: linear-gradient(to right, #00C3FF, #0074FF); }
   .welcomeText .social {
     display: flex;
     justify-content: space-around;
@@ -23,4 +22,4 @@
       color: white;
       font-size: 2rem; }
       .welcomeText .social a:hover {
-        color: red; }
+        color: #00C3FF; }

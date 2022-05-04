@@ -18,8 +18,8 @@
       }
       
       &:hover {
-        background: white;
-        color: #252734;
+        background-image: linear-gradient(to right, #00C3FF , #0074FF);
+        //color: #252734;
       }
     }
   }
@@ -35,7 +35,7 @@
       font-size: 2rem;
       
       &:hover {
-        color: red;
+        color: #00C3FF;
       }
     }
   }

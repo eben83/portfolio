@@ -1,4 +1,4 @@
-﻿import React, {} from 'react';
+import React, {} from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBriefcase} from "@fortawesome/free-solid-svg-icons";
 
@@ -18,11 +18,13 @@ const Work = (props) => {
           </div>
         </div>
         <div className='context'>
-          <div className='workHeading'>
-            <h4>Work</h4>
-          </div>
-          <div className='workText'>
-            <p>If You wish to view updated Reseme, please email or download it.</p>
+          <div className='text'>
+            <div className='workHeading'>
+              <h4>Work</h4>
+            </div>
+            <div className='workText'>
+              <p>If You wish to view updated Reseme, please email or download it.</p>
+            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  .workItem {
+    justify-content: center;
+    position: relative; }
+    .workItem .context {
+      position: absolute; }
+    .workItem .right {
+      top: 0;
+      left: 61%; }
+    .workItem .left {
+      top: 0;
+      left: -14%;
+      text-align: right; } }

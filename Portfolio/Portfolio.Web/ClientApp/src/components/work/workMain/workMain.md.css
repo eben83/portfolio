@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+  .workMain {
+    justify-content: center;
+    position: relative;
+    margin-bottom: 9rem; }
+    .workMain .context {
+      position: absolute;
+      text-align: center; }
+      .workMain .context .text {
+        position: absolute;
+        top: 9rem; } }

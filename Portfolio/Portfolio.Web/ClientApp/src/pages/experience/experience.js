@@ -1,4 +1,4 @@
-﻿import React, {} from 'react';
+import React, {} from 'react';
 
 import './experience.xs.css'
 import './experience.sm.css'
@@ -22,20 +22,26 @@ const Experience = (props) => {
         <div className='work'>
           <WorkMain />
           <WorkItem 
+            className={'right'}
             company='AtraX Logistics' 
             start="Feb 2022" 
             end='Present' 
-            context="This is the context" />
+            context="This is the context" 
+            />
           <WorkItem
+            className={'left'}
             company='CWare'
             start="Nov 2021"
             end='Feb 2022'
-            context="This is the context" />
+            context="This is the context" 
+            />
           <WorkItem
+            className={'right'}
             company='Arlow Consulting'
             start="Dec 2019"
             end='Nov 2021'
-            context="This is the context" />
+            context="This is the context" 
+          />
         </div>
       </div>
     </>

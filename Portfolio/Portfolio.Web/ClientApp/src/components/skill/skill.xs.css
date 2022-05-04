@@ -5,5 +5,7 @@
   padding: 0.5rem;
   border-radius: 20px;
   margin: 1rem; }
+  .skill:hover {
+    background-image: linear-gradient(to right, #00C3FF, #0074FF); }
   .skill h6 {
     margin: 0; }

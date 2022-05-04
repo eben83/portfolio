@@ -1,2 +1,26 @@
 ﻿@media (min-width: 768px) {
+  .workMain {
+	justify-content: center;
+	position: relative;
+	margin-bottom: 9rem;
+	
+	.iconContainer {
+
+	  .icon {
+	  }
+	}
+
+	.context {
+	  position: absolute;
+	  text-align: center;
+	  
+	  .text {
+		position: absolute;
+		top: 9rem;
+	  }
+
+	  //justify-content: center;
+	  //width: 100%;
+	}
+  }
 }
