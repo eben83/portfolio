@@ -1,14 +1,11 @@
 import React, {useEffect, useRef, useState} from 'react';
-import {
-  ScrollingProvider,
-  Section,
-} from 'react-scroll-section';
 
 import Layout from './components/layout/Layout';
 import Home from './pages/home/home';
 import Skills from "./pages/skills/skills";
 import Information from "./pages/Information/information";
 import Experience from "./pages/experience/experience";
+import Split from "./components/split/split";
 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAngleDoubleUp} from "@fortawesome/free-solid-svg-icons";
@@ -42,22 +39,15 @@ const App = () => {
   
     return (
       <>
-        <ScrollingProvider>
-          <Layout>
-            <Section  id='home'>
-              <Home />
-            </Section>
-            <Section  id='skills'>
-              <Skills />
-            </Section>
-            <Section  id='information'>
-              <Information />
-            </Section>
-            <Section  id='experience'>
-              <Experience />
-            </Section>
-          </Layout>
-        </ScrollingProvider>
+        <Layout>
+          <Home />
+          <Split />
+          <Skills />
+          <Split />
+          <Information />
+          <Split />
+          <Experience />
+        </Layout>
 
         <div className='scrollTop'
              onClick={scrollTop}
