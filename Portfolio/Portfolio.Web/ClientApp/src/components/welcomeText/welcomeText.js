@@ -7,7 +7,7 @@ import './welcomeText.md.css'
 import './welcomeText.lg.css'
 import './welcomeText.xl.css'
 import {faDownload} from "@fortawesome/free-solid-svg-icons";
-import {faGit, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 const WelcomeText = () => {
   return (
@@ -31,7 +31,7 @@ const WelcomeText = () => {
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a href='https://github.com/eben83' >
-            <FontAwesomeIcon icon={faGit} />
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
       </div>
