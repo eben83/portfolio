@@ -1,0 +1,36 @@
+.navMenu {
+  position: fixed;
+  background: red;
+  width: 100vw;
+  z-index: 9999;
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+    //li {
+    //  .active {
+    //    color: #00C3FF;
+    //  }
+    //}
+  }
+  
+}
+  .basic {
+    background: transparent;
+    li {
+      .active {
+        color: #00C3FF;
+      }
+    }
+  }
+  
+  .blue {
+    background-image: linear-gradient(to right, #00C3FF, #0074FF);
+    li {
+      .active {
+        color: black;
+      }
+    }
+  }
