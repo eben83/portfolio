@@ -9,7 +9,7 @@ const Information = (props) => {
     <>
       <div className='information'>
         <div className='title'>
-          <h3>Fun Facts</h3>
+          <h4>Fun Facts</h4>
         </div>
         <div className='infoItem'>
           <FunInfo
