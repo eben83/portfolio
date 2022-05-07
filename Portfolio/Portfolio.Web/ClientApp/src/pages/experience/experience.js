@@ -13,7 +13,7 @@ const Experience = (props) => {
     <>
       <div className='experience'>
         <div className='title'>
-          <h1>Experience</h1>
+          <h4>Experience</h4>
           <div className='subtitle'>
             <p>This is just an overview of my experiance</p>
           </div>
