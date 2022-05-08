@@ -1,13 +1,14 @@
 import React, {  } from 'react';
+import {Container} from "reactstrap";
 
 import NavMenu from "../navMenu/navMenu";
+import Footer from "../footer/footer";
 
 import './layout.xs.css'
 import './layout.sm.css'
 import './layout.md.css'
 import './layout.lg.css'
 import './layout.xl.css'
-import {Container} from "reactstrap";
 
 const Layout = ({ children }) => {
   
@@ -21,6 +22,7 @@ const Layout = ({ children }) => {
               {children}
             </div>
           </Container>
+          <Footer />
         </div>
     );
 }
