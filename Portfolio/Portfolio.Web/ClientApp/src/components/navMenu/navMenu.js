@@ -19,12 +19,13 @@ const NavMenu = () => {
   }, []);
   
   const links = [
-    {id: 1, name: 'home', link: 'home', offset: 0},
-    {id: 2, name: 'skills', link: 'skills', offset: -35},
-    {id: 3, name: 'information', link: 'information', offset: -35},
-    {id: 4, name: 'experience', link: 'experience', offset: -45},
+    {id: 1, name: 'Home', link: 'home', offset: 0},
+    {id: 2, name: 'Skills', link: 'skills', offset: -35},
+    // {id: 3, name: 'About', link: 'about', offset: -65},
+    {id: 4, name: 'Facts', link: 'information', offset: -35},
+    {id: 5, name: 'Work', link: 'experience', offset: -45},
+    // {id: 6, name: 'Projects', link: 'projects', offset: -45},
   ]
-  console.log("SCROLL", window.pageYOffset)
 
   return (
     <>
