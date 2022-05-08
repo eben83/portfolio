@@ -1,4 +1,5 @@
 import React, {} from 'react';
+
 import MeSquare from '../../images/meSquare.jpg'
 import HeroImage from "../../components/heroImage/heroImage";
 import WelcomeText from "../../components/welcomeText/welcomeText";

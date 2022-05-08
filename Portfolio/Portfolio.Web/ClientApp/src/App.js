@@ -3,6 +3,7 @@ import React, {useEffect, useState} from 'react';
 import Layout from './components/layout/Layout';
 import Home from './pages/home/home';
 import Skills from "./pages/skills/skills";
+import About from "./pages/about/about";
 import Information from "./pages/Information/information";
 import Experience from "./pages/experience/experience";
 import Split from "./components/split/split";
@@ -15,6 +16,7 @@ import './custom.sm.css'
 import './custom.md.css'
 import './custom.lg.css'
 import './custom.xl.css'
+import Projects from "./pages/Projects/projects";
 
 const App = () => {
 
@@ -43,10 +45,14 @@ const App = () => {
           <Home />
           <Split />
           <Skills />
+          {/*<Split />*/}
+          {/*<About />*/}
           <Split />
           <Information />
           <Split />
           <Experience />
+          {/*<Split />*/}
+          {/*<Projects />*/}
         </Layout>
 
         <div className='scrollTop'
