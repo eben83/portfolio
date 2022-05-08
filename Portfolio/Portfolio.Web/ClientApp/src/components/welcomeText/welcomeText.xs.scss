@@ -1,7 +1,6 @@
 .welcomeText {
   background-color: #252734;
   height: 44vh;
-  //width: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,17 +22,17 @@
       }
     }
   }
-  
+
   .social {
     display: flex;
     justify-content: space-around;
     width: 50%;
     margin-top: 1rem;
-    
+
     a {
       color: white;
       font-size: 2rem;
-      
+
       &:hover {
         color: #00C3FF;
       }
