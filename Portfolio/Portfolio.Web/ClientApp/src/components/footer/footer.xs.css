@@ -3,7 +3,21 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 9rem; }
-  .footer span .icon {
+  height: 12rem;
+  margin-bottom: 2rem; }
+  .footer .contact .icon {
     color: #0074FF;
     margin-right: 1rem; }
+  .footer .social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 67%; }
+    .footer .social p {
+      margin: 0;
+      display: flex;
+      align-items: center; }
+    .footer .social a {
+      color: white;
+      font-size: 2rem; }
+      .footer .social a:hover {
+        color: #0366d6; }

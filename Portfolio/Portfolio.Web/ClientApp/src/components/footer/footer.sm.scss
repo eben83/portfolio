@@ -1,2 +1,28 @@
 ﻿@media (min-width: 576px) {
+  .footer {
+	justify-content: space-evenly;
+	height: 7rem;
+
+	.contact {
+	  width: 100%;
+	  display: flex;
+	  justify-content: space-evenly;
+	  span {
+	  	text-align: center;
+		.icon {
+		  color: #0074FF;
+		  margin-right: 0.5rem;
+		}
+	  }
+	}
+	
+	.social {
+	  justify-content: space-evenly;
+	  p {
+		display: flex;
+		align-items: center;
+		margin: 0;
+	  }
+	}
+  }
 }
