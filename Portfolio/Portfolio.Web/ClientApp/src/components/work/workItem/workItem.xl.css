@@ -1,5 +1,13 @@
 @media (min-width: 1200px) {
   .workItem .right {
-    left: 56%; }
+    left: 74%;
+    transform: translate(-80%, -50%); }
   .workItem .left {
-    left: -8%; } }
+    left: 33%; } }
+
+@media (min-width: 1400px) {
+  .workItem .right {
+    left: 69%;
+    transform: translate(-89%, -50%); }
+  .workItem .left {
+    left: 37%; } }

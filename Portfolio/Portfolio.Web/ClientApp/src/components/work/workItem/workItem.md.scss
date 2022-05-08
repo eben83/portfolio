@@ -11,19 +11,19 @@
 	  transform: translate(-50%, -50%);
 	}
 	.context {
-	  
-
 	}
 	.right {
 	  position: absolute;
-	  top: 0;
-	  left: 61%;
+	  left: 77%;
+	  top: 50%;
+	  transform: translate(-55%, -50%);
 	}
 	.left {
 	  position: absolute;
-	  top: 0;
-	  left: 8%;
-	  text-align: right;
+	  left: 27%;
+	  top: 50%;
+	  transform: translate(-61%, -50%);
+	 text-align: right;
 	   p{
 		 width: 100%;
 	   }

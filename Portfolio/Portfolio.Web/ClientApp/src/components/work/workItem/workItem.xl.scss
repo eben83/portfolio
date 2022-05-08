@@ -7,10 +7,29 @@
 
 	}
 	.right {
-	  left: 56%;
+	  left: 74%;
+	  transform: translate(-80%, -50%);
 	}
 	.left {
-	  left: -8%;
+	  left: 33%;
+	}
+  }
+}
+
+@media (min-width: 1400px) {
+  .workItem {
+
+	.dateContainer {
+	}
+	.context {
+
+	}
+	.right {
+	  left: 69%;
+	  transform: translate(-89%, -50%);
+	}
+	.left {
+	  left: 37%;
 	}
   }
 }

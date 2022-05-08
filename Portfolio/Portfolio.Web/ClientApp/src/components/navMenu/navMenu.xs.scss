@@ -1,6 +1,6 @@
 .navMenu {
   position: fixed;
-  background: red;
+  background: #252734;
   width: 100vw;
   z-index: 9999;
 
@@ -8,12 +8,6 @@
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-
-    //li {
-    //  .active {
-    //    color: #00C3FF;
-    //  }
-    //}
   }
   
 }

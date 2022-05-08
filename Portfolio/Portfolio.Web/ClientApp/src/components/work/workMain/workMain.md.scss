@@ -3,7 +3,6 @@
 	justify-content: center;
 	position: relative;
 	margin-bottom: 9rem;
-	width: 90vw;
 	
 	.iconContainer {
 
@@ -18,10 +17,8 @@
 	  .text {
 		position: absolute;
 		top: 9rem;
+		width: 100%;
 	  }
-
-	  //justify-content: center;
-	  //width: 100%;
 	}
   }
 }

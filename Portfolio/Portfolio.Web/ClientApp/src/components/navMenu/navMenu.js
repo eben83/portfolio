@@ -2,7 +2,11 @@ import React, {useEffect, useState} from 'react';
 
 import { Link } from 'react-scroll'
 
-import './nav.xs.scss'
+import './navMenu.xs.css'
+import './navMenu.sm.css'
+import './navMenu.md.css'
+import './navMenu.lg.css'
+import './navMenu.xl.css'
 
 const NavMenu = () => {
 

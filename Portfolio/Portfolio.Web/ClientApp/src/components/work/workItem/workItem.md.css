@@ -10,12 +10,14 @@
       transform: translate(-50%, -50%); }
     .workItem .right {
       position: absolute;
-      top: 0;
-      left: 61%; }
+      left: 77%;
+      top: 50%;
+      transform: translate(-55%, -50%); }
     .workItem .left {
       position: absolute;
-      top: 0;
-      left: 8%;
+      left: 27%;
+      top: 50%;
+      transform: translate(-61%, -50%);
       text-align: right; }
       .workItem .left p {
         width: 100%; }
