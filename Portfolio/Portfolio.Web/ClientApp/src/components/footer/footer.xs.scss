@@ -1,0 +1,14 @@
+﻿.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 9rem;
+
+  span {
+	.icon {
+	  color: #0074FF;
+	  margin-right: 1rem;
+	}
+  }
+}
