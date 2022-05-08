@@ -7,6 +7,7 @@ import './layout.sm.css'
 import './layout.md.css'
 import './layout.lg.css'
 import './layout.xl.css'
+import {Container} from "reactstrap";
 
 const Layout = ({ children }) => {
   
@@ -15,9 +16,11 @@ const Layout = ({ children }) => {
           <div className='navContainer'>
             <NavMenu />
           </div>
-          <div className='context'>
-            {children}
-          </div>
+          <Container>
+            <div className='context'>
+              {children}
+            </div>
+          </Container>
         </div>
     );
 }

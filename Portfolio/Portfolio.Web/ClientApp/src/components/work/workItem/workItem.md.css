@@ -15,9 +15,9 @@
     .workItem .left {
       position: absolute;
       top: 0;
-      left: -14%;
+      left: 8%;
       text-align: right; }
       .workItem .left p {
         width: 100%; }
     .workItem .workText {
-      width: 17rem; } }
+      width: 15rem; } }

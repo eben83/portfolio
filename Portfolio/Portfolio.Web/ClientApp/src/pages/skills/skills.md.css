@@ -1,3 +1,4 @@
 @media (min-width: 768px) {
   .skills .skillsContainer .skillItem {
-    width: 42rem; } }
+    width: 42rem;
+    padding: 1rem; } }
